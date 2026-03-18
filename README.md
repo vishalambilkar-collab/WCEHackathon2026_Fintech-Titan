@@ -1,18 +1,32 @@
-# Unified Portfolio Analyzer
+# InvestiZen — Unified Portfolio Analyzer
 
-A unified dashboard to track stocks, mutual funds, crypto, and gold in one place.
+A modern fintech dashboard that allows users to track and analyze
+their investments across multiple asset classes in one place.
+
+Supported assets:
+• Stocks
+• Mutual Funds
+• Crypto
+• Gold
+
+Tech Stack:
+• Vite + TypeScript
+• Supabase
+• Charting libraries
+• Financial APIs
+
+Features:
+• Portfolio value tracking
+• Asset allocation charts
+• Profit & loss analysis
+• AI-powered insights
 
 
+Setup Instructions
 
-## Features
 
-- Unified portfolio dashboard  
-- Total wealth view  
-- Combined profit and loss  
-- Asset allocation charts  
-- Crypto, stocks, mutual funds, and gold tracking  
-
-## Running the Project
-
-Install dependencies:
-
+## Installation
+## Project Structure
+## API Integrations
+## Screenshots
+## Roadmap

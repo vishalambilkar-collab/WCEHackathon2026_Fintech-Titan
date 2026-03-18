@@ -1,6 +1,6 @@
+import PortfolioDashboard from './components/portfolio-dashboard';
 import { useState, useEffect } from 'react';
 import InvestiZenLogin from './components/investizen-login';
-import InvestiZenDashboard from './components/investizen-dashboard';
 import InvestiZenPortfolio from './components/investizen-portfolio';
 import InvestiZenAssets from './components/investizen-assets';
 import InvestiZenRiskAnalysis from './components/investizen-risk-analysis';
@@ -222,7 +222,7 @@ export default function App() {
 
         {/* Content Area */}
         <div className="p-8">
-          {activeTab === 'dashboard' && <InvestiZenDashboard assets={assets} />}
+          {activeTab === 'dashboard' && <PortfolioDashboard />}
           {activeTab === 'portfolio' && <InvestiZenPortfolio assets={assets} />}
           {activeTab === 'assets' && <InvestiZenAssets assets={assets} onAddAsset={handleAddAsset} />}
           {activeTab === 'risk-analysis' && <InvestiZenRiskAnalysis assets={assets} />}
